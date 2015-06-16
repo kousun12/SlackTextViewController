@@ -25,8 +25,6 @@ NSString * const SLKTypingIndicatorViewWillHideNotification =   @"SLKTypingIndic
 
 @interface SLKTypingIndicatorView ()
 
-// The text label used to display the typing indicator content.
-@property (nonatomic, strong) UILabel *textLabel;
 
 @property (nonatomic, strong) NSMutableArray *usernames;
 @property (nonatomic, strong) NSMutableArray *timers;

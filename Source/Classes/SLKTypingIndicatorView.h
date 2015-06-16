@@ -28,6 +28,8 @@ UIKIT_EXTERN NSString * const SLKTypingIndicatorViewWillHideNotification;
 /** If YES, the user can dismiss the indicator by tapping on it. Default is YES. */
 @property (nonatomic, readwrite) BOOL canResignByTouch;
 
+@property (nonatomic, readwrite) UILabel *textLabel;
+
 /** Returns YES if the indicator is visible. */
 @property (nonatomic, readwrite, getter = isVisible) BOOL visible;
 
